@@ -26,6 +26,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'pyzmq>=22.3.0',
-        'gym>=0.26.2'
+        'gym>=0.26.2',
+        'coloredlogs>=15.0.1'
     ]
 )
