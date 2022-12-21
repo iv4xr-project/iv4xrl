@@ -27,19 +27,11 @@ public class SquareWorldGymInterface {
         @Override
         public String asCommand(int agentId) {
             switch (rawAction) {
-                case 0 -> {
-                    return UP;
-                }
-                case 1 -> {
-                    return DOWN;
-                }
-                case 2 -> {
-                    return LEFT;
-                }
-                case 3 -> {
-                    return RIGHT;
-                }
-                default -> throw new IllegalStateException("Illegal action");
+                case 0 : return UP;
+                case 1 : return DOWN;
+                case 2 : return LEFT;
+                case 3 : return RIGHT;
+                default : throw new IllegalStateException("Illegal action");
             }
         }
     };
