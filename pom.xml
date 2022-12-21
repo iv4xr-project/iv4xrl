@@ -6,16 +6,16 @@
 
     <groupId>com.github.iv4xr-project</groupId>
     <artifactId>iv4xrl</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.6-SNAPSHOT</version>
 
     <name>iv4xrl</name>
     <url>https://github.com/iv4xr-project/iv4xrl</url>
 
     <properties>
-        <maven.compiler.release>14</maven.compiler.release>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>15</maven.compiler.release>
+        <maven.compiler.source>1.15</maven.compiler.source>
+        <maven.compiler.target>1.15</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
