@@ -6,7 +6,7 @@
 
     <groupId>com.github.iv4xr-project</groupId>
     <artifactId>iv4xrl</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
